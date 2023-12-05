@@ -59,7 +59,7 @@ const Home = () => {
   </header>
   {/* <!-- ***** Header Area End ***** --> */}
 
-  {/* <!-- ***** Main Banner Area Start ***** --> */}
+  {/*  ***** Main Banner Area Start ***** */}
   <section className="section main-banner" id="top" data-section="section1">
       <video autoPlay muted loop id="bg-video">
           <source src="assets/images/course-video.mp4" type="video/mp4" />
