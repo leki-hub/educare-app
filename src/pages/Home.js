@@ -36,7 +36,7 @@ const Home = () => {
                       <!-- ***** Menu Start ***** --> */}
                       <ul className="nav">
                           <li className="scroll-to-section"><Link to="/" className="active">Home</Link></li>
-                          <li><a href="meetings.html">Meetings</a></li>
+                          <li><Link to="/meetings">Meetings</Link></li>
                           <li className="scroll-to-section"><a href="#apply">Apply Now</a></li>
                           <li className="has-sub">
                               <a href="#">Pages</a>
