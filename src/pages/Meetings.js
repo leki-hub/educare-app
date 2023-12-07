@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Meetings = () => {
   return (
@@ -34,11 +35,11 @@ const Meetings = () => {
                     {/* ***** Logo End ***** */}
                      {/* ***** Menu Start *****  */}
                       <ul className="nav">
-                          <li><a href="index.html">Home</a></li>
-                          <li><a href="meetings.html" className="active">Meetings</a></li>
-                          <li><a href="index.html">Apply Now</a></li>
+                          <li><Link to="/">Home</Link></li>
+                          <li><Link to="/meetings" className="active">Meetings</Link></li>
+                          <li><Link to="/">Apply Now</Link></li>
                           <li className="has-sub">
-                              <a href="javascript:void(0)">Pages</a>
+                              <a href="#">Pages</a>
                               <ul className="sub-menu">
                                   <li><a href="meetings.html">Upcoming Meetings</a></li>
                                   <li><a href="meeting-details.html">Meeting Details</a></li>
