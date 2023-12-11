@@ -50,6 +50,7 @@ const Home = () => {
                       </ul>        
                       <a className='menu-trigger'>
                           <span>Menu</span>
+                      
                       </a>
                       {/* <!-- ***** Menu End ***** --> */}
                   </nav>
