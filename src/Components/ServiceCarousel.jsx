@@ -7,7 +7,7 @@ import '../ServiceCarousel.css';
 
 const ServiceCarousel = () => {
   const settings = {
-    // dots: true,
+    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
@@ -28,7 +28,7 @@ const ServiceCarousel = () => {
         },
       },
     ],
-  };;
+  };
 
   return (
     <section className="services">
@@ -36,7 +36,7 @@ const ServiceCarousel = () => {
         <div className="row">
           <div className="col-lg-12">
             <Slider {...settings} className="custom-slider">
-            
+            <div className="carousel-item">
               <div className="item">
                 <div className="icon">
                   <img src="assets/images/service-icon-01.png" alt="" />
@@ -46,7 +46,8 @@ const ServiceCarousel = () => {
                   <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
                 </div>
               </div>
-               
+              </div>
+              <div className="carousel-item">
               <div className="item">
                 <div className="icon">
                   <img src="assets/images/service-icon-02.png" alt="" />
@@ -56,7 +57,8 @@ const ServiceCarousel = () => {
                   <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
                 </div>
               </div>
-
+              </div>
+              <div className="carousel-item">
               <div className="item">
                 <div className="icon">
                   <img src="assets/images/service-icon-03.png" alt="" />
@@ -66,7 +68,8 @@ const ServiceCarousel = () => {
                   <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
                 </div>
               </div>
-
+              </div>
+              <div className="carousel-item">
               <div className="item">
                 <div className="icon">
                   <img src="assets/images/service-icon-02.png" alt="" />
@@ -76,7 +79,8 @@ const ServiceCarousel = () => {
                   <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
                 </div>
               </div>
-
+              </div>
+              <div className="carousel-item">
               <div className="item">
                 <div className="icon">
                   <img src="assets/images/service-icon-03.png" alt="" />
@@ -86,7 +90,7 @@ const ServiceCarousel = () => {
                   <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
                 </div>
               </div>
-              
+              </div>
             </Slider>
           </div>
         </div>
@@ -96,3 +100,4 @@ const ServiceCarousel = () => {
 };
 
 export default ServiceCarousel;
+
