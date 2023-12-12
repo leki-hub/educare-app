@@ -3,6 +3,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import '../ServiceCarousel.css';
 
 const ServiceCarousel = () => {
   const settings = {
@@ -34,7 +35,8 @@ const ServiceCarousel = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <Slider {...settings}>
+            <Slider {...settings} className="custom-slider">
+            
               <div className="item">
                 <div className="icon">
                   <img src="assets/images/service-icon-01.png" alt="" />
@@ -44,7 +46,7 @@ const ServiceCarousel = () => {
                   <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
                 </div>
               </div>
-
+               
               <div className="item">
                 <div className="icon">
                   <img src="assets/images/service-icon-02.png" alt="" />
@@ -84,6 +86,7 @@ const ServiceCarousel = () => {
                   <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
                 </div>
               </div>
+              
             </Slider>
           </div>
         </div>
