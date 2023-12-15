@@ -1,6 +1,8 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 import ServiceCarousel from '../Components/ServiceCarousel'
+import HomeAccordion from '../Components/HomeAccordion';
+
 
 const Home = () => {
   return (
@@ -211,7 +213,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="col-lg-6">
+        {/* <div className="col-lg-6">
           <div className="accordions is-first-expanded">
             <article className="accordion">
                 <div className="accordion-head">
@@ -269,7 +271,12 @@ const Home = () => {
                 </div>
             </article>
         </div>
-        </div>
+        </div> */}
+      <HomeAccordion />
+
+
+
+
       </div>
     </div>
   </section>
@@ -680,3 +687,5 @@ const Home = () => {
 }
 
 export default Home
+
+
