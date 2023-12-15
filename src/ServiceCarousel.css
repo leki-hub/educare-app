@@ -1,0 +1,13 @@
+/* ServiceCarousel.css */
+.custom-slider .slick-slide {
+    margin-right: 15px; /* Adjust the margin as needed */
+  }
+  
+  .custom-slider .slick-list {
+    margin: 0 -15px; /* Counteract the right margin on the last slide */
+  }
+  
+  .custom-slider .carousel-item {
+    padding: 0 15px; /* Adjust padding for the item container */
+  }
+  
