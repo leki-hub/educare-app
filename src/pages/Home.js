@@ -3,9 +3,20 @@ import {Link} from "react-router-dom"
 import ServiceCarousel from '../Components/ServiceCarousel'
 import HomeAccordion from '../Components/HomeAccordion';
 import CourseCarousel from '../Components/CourseCarousel.js';
+import '../Components/Header.css';
 
 
 const Home = () => {
+  window.addEventListener('scroll', function() {
+    var header = document.querySelector('.header-area');
+    if (window.scrollY > 0) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  });
+  
+
   return (
     <div>
            <div className="sub-header">
@@ -340,6 +351,9 @@ const Home = () => {
           <br />Design: <a href="https://templatemo.com" target="_parent" title="free css templates">TemplateMo</a></p>
     </div>
   </section>
+
+
+
 
 
       
