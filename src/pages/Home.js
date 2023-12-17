@@ -4,6 +4,7 @@ import ServiceCarousel from '../Components/ServiceCarousel'
 import HomeAccordion from '../Components/HomeAccordion';
 import CourseCarousel from '../Components/CourseCarousel.js';
 import '../Components/Header.css';
+import CountUpAnimation from '../Components/Countup.js';
 
 
 const Home = () => {
@@ -45,7 +46,7 @@ const Home = () => {
                   <nav className="main-nav">
                       {/* <!-- ***** Logo Start ***** --> */}
                       <a href="index.html" className="logo">
-                          Edu Meeting
+                          Leki Academy
                       </a>
                       {/* <!-- ***** Logo End ***** -->
                       <!-- ***** Menu Start ***** --> */}
@@ -233,7 +234,7 @@ const Home = () => {
   <section className="our-facts">
     <div className="container">
       <div className="row">
-        <div className="col-lg-6">
+        {/* <div className="col-lg-6">
           <div className="row">
             <div className="col-lg-12">
               <h2>A Few Facts About Our University</h2>
@@ -271,7 +272,9 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </div> 
+        </div>  */}
+           <CountUpAnimation />
+
         <div className="col-lg-6 align-self-center">
           <div className="video">
             <a href="https://www.youtube.com/watch?v=HndV87XpkWg" target="_blank"><img src="assets/images/play-icon.png" alt="" /></a>
