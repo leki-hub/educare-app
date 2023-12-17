@@ -12,13 +12,13 @@ const CountUpAnimation = () => {
           <div className="row">
             <div className="col-12">
               <div className="count-area-content percentage">
-                <CountUp start={0} end={94} duration={2.5} separator="," className='text-warning' />
+                <CountUp start={0} end={94} duration={4} separator="," className=' h1 text-warning' />
                 <div className="count-title">Succeeded Students</div>
               </div>
             </div>
             <div className="col-12">
               <div className="count-area-content">
-                <CountUp start={0} end={126} duration={3} separator="," className='text-warning' />
+                <CountUp start={0} end={126} duration={4} separator="," className='h1 text-warning' />
                 <div className="count-title">Current Teachers</div>
               </div>
             </div>
@@ -28,13 +28,13 @@ const CountUpAnimation = () => {
           <div className="row">
             <div className="col-12">
               <div className="count-area-content new-students">
-                <CountUp start={0} end={2345} duration={4} separator="," className='text-warning' />
+                <CountUp start={0} end={2345} duration={4} separator="," className='h1 text-warning' />
                 <div className="count-title">New Students</div>
               </div>
             </div>
             <div className="col-12">
               <div className="count-area-content">
-                <CountUp start={0} end={32} duration={2} separator="," className='text-warning' />
+                <CountUp start={0} end={32} duration={4} separator="," className='h1 text-warning' />
                 <div className="count-title">Awards</div>
               </div>
             </div>
