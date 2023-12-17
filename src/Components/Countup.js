@@ -12,13 +12,13 @@ const CountUpAnimation = () => {
           <div className="row">
             <div className="col-12">
               <div className="count-area-content percentage">
-                <CountUp start={0} end={94} duration={4} separator="," className=' h1 text-warning' />
+                <CountUp start={0} end={94} duration={4} separator="," className=' h1 text-warning' suffix="%" />
                 <div className="count-title">Succeeded Students</div>
               </div>
             </div>
             <div className="col-12">
               <div className="count-area-content">
-                <CountUp start={0} end={126} duration={4} separator="," className='h1 text-warning' />
+                <CountUp start={0} end={126} duration={4} separator="," className='h1 text-warning'  />
                 <div className="count-title">Current Teachers</div>
               </div>
             </div>
