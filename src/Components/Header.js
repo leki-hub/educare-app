@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../Components/HeaderTest.css';
-// import openImage from '../open.png';
-// import closeImage from '../close.png';
 
 
 const Header = () => {
@@ -48,16 +46,35 @@ const Header = () => {
           <div className="row">
             <div className="col-12">
               <nav className="main-nav">
-                <a href="index.html" className="logo">
+                <Link href="/" className="logo">
                   Leki Academy
-                </a>
+                </Link>
            
                 <div className="menu-trigger" onClick={toggleMenu}>
                   <span>Menu</span>
-                  <img src={menuOpen ? 'assets/images/close.png' : 'assets/images/open.png'} alt="Menu Icon" />
+                  <img src={menuOpen ? 'assets/images/close.png' : 'assets/images/open.png'} alt="Menu Icon"  />
                 </div>
-          
-                <ul className={`nav ${menuOpen ? 'active' : ''}`}>
+              {
+                menuOpen &&(
+                  <ul className={'nav active'} >
+                     {/* <ul className={`nav ${menuOpen ? 'active' : ''}`} > */}
+                  <li className="scroll-to-section"><Link to="/" className="active">Home</Link></li>
+                            <li><Link to="/meetings">Meetings</Link></li>
+                            <li className="scroll-to-section"><a href="#apply">Apply Now</a></li>
+                            <li className="has-sub">
+                                <a href="#">Pages</a>
+                                <ul className="sub-menu">
+                                    <li><a href="meetings.html">Upcoming Meetings</a></li>
+                                    <li><a href="meeting-details.html">Meeting Details</a></li>
+                                </ul>
+                            </li>
+                            <li className="scroll-to-section"><a href="#courses">Courses</a></li> 
+                            <li className="scroll-to-section"><a href="#contact">Contact Us</a></li> 
+                  </ul>
+
+                )
+              }
+                {/* <ul className={`nav ${menuOpen ? 'active' : ''}`} >
                 <li className="scroll-to-section"><Link to="/" className="active">Home</Link></li>
                           <li><Link to="/meetings">Meetings</Link></li>
                           <li className="scroll-to-section"><a href="#apply">Apply Now</a></li>
@@ -71,9 +88,7 @@ const Header = () => {
                           <li className="scroll-to-section"><a href="#courses">Courses</a></li> 
                           <li className="scroll-to-section"><a href="#contact">Contact Us</a></li> 
                 </ul>
-                <a className='menu-trigger'>
-                          <span>Menu</span>
-                      </a>
+            */}
               </nav>
             </div>
           </div>
