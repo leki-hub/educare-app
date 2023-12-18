@@ -1,64 +1,13 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 
 const Meetings = () => {
+
+
+
+
   return (
     <div>
-           {/* Sub Header */}
-  <div className="sub-header">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-4 col-sm-4">
-          <div className="right-icons">
-            <ul>
-              <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i className="fa fa-behance"></i></a></li>
-              <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
- {/* ***** Header Area Start *****  */}
-  <header className="header-area header-sticky">
-      <div className="container">
-          <div className="row">
-              <div className="col-12">
-                  <nav className="main-nav">
-                 {/* ***** Logo Start *****  */}
-                      <a href="index.html" className="logo">
-                          Edu Meeting
-                      </a>
-                    {/* ***** Logo End ***** */}
-                     {/* ***** Menu Start *****  */}
-                      <ul className="nav">
-                          <li><Link to="/">Home</Link></li>
-                          <li><Link to="/meetings" className="active">Meetings</Link></li>
-                          <li><Link to="/">Apply Now</Link></li>
-                          <li className="has-sub">
-                              <a href="#">Pages</a>
-                              <ul className="sub-menu">
-                                  <li><a href="meetings.html">Upcoming Meetings</a></li>
-                                  <li><a href="meeting-details.html">Meeting Details</a></li>
-                              </ul>
-                          </li>
-                          <li><a href="index.html">Courses</a></li> 
-                          <li><a href="index.html">Contact Us</a></li> 
-                      </ul>        
-                      <a className='menu-trigger'>
-                          <span>Menu</span>
-                      </a>
-                      {/* ***** Menu End *****  */}
-                  </nav>
-              </div>
-          </div>
-      </div>
-  </header>
-  {/* ***** Header Area End *****  */}
-
   <section className="heading-page header-text" id="top">
     <div className="container">
       <div className="row">
