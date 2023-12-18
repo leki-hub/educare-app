@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../Components/HeaderTest.css';
+import { useEffect } from 'react';
 
 
 const Header = () => {
@@ -10,16 +11,23 @@ const Header = () => {
         const toggleMenu = () => {
           setMenuOpen(!menuOpen);
         };
-      
-        window.addEventListener('scroll', function() {
-          var header = document.querySelector('.header-area');
-          if (window.scrollY > 0) {
-            header.classList.add('scrolled');
-          } else {
-            header.classList.remove('scrolled');
-          }
-        });
-
+        
+        useEffect(() => {
+          const handleScroll = () => {
+            const header = document.querySelector('.header-area');
+            if (window.scrollY > 0) {
+              header.classList.add('scrolled');
+            } else {
+              header.classList.remove('scrolled');
+            }
+          };
+        
+          window.addEventListener('scroll', handleScroll);
+          return () => {
+            window.removeEventListener('scroll', handleScroll);
+          };
+        }, []);
+        
 
   return (
     <div>
@@ -54,27 +62,8 @@ const Header = () => {
                   <span>Menu</span>
                   <img src={menuOpen ? 'assets/images/close.png' : 'assets/images/open.png'} alt="Menu Icon"  />
                 </div>
-              {
-                menuOpen &&(
-                  <ul className={'nav active'} >
-                     {/* <ul className={`nav ${menuOpen ? 'active' : ''}`} > */}
-                  <li className="scroll-to-section"><Link to="/" className="active">Home</Link></li>
-                            <li><Link to="/meetings">Meetings</Link></li>
-                            <li className="scroll-to-section"><a href="#apply">Apply Now</a></li>
-                            <li className="has-sub">
-                                <a href="#">Pages</a>
-                                <ul className="sub-menu">
-                                    <li><a href="meetings.html">Upcoming Meetings</a></li>
-                                    <li><a href="meeting-details.html">Meeting Details</a></li>
-                                </ul>
-                            </li>
-                            <li className="scroll-to-section"><a href="#courses">Courses</a></li> 
-                            <li className="scroll-to-section"><a href="#contact">Contact Us</a></li> 
-                  </ul>
-
-                )
-              }
-                {/* <ul className={`nav ${menuOpen ? 'active' : ''}`} >
+       
+                <ul className={`nav ${menuOpen ? 'active' : ''}`} >
                 <li className="scroll-to-section"><Link to="/" className="active">Home</Link></li>
                           <li><Link to="/meetings">Meetings</Link></li>
                           <li className="scroll-to-section"><a href="#apply">Apply Now</a></li>
@@ -88,7 +77,7 @@ const Header = () => {
                           <li className="scroll-to-section"><a href="#courses">Courses</a></li> 
                           <li className="scroll-to-section"><a href="#contact">Contact Us</a></li> 
                 </ul>
-            */}
+           
               </nav>
             </div>
           </div>
