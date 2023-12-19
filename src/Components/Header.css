@@ -15,6 +15,10 @@
     background-color: #9d1919;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   }
+
+
+
+  
   .main-nav {
     padding: 20px 0;
   }
@@ -33,7 +37,7 @@
   }
   
   .nav li {
-    display: inline-block;
+    display:inline-block;
     margin-right: 20px; 
   }
   
@@ -41,6 +45,7 @@
     color: #333333;
     text-decoration: none;
     transition: color 0.3s ease;
+ 
   }
   
   .nav li a:hover {
@@ -52,21 +57,37 @@
     display: none; 
   }
   
+  
 
+  .menu-trigger span {
+    margin-right: 10px;
+  }
+  
+  .menu-trigger img {
+    width: 20px; 
+    height: auto;
+  }
+  
+
+    
   @media (max-width: 768px) {
     .menu-trigger {
       display: block;
       cursor: pointer;
+      align-items: center;
+      justify-content: space-between;
     }
-    
+
+
     .nav {
       display: none;
       text-align: center;
       padding: 20px 0;
+      flex-direction: column;
     }
   
     .nav li {
-      display: block;
+      display: inline;
       margin-bottom: 10px;
     }
   
@@ -75,12 +96,98 @@
     }
   
     .nav li a {
-      display: block;
-      padding: 10px 0;
+      color: #333333;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    
     }
-  
+    
     .nav.active {
-      display: block; 
+      display: block;
+      flex-direction: column;
     }
-  }
   
+  
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Update your existing HeaderTest.css file */
+
+/* Media query for small screens */
+@media screen and (max-width: 768px) {
+  .main-nav ul.nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* Adjust the top position based on your header height */
+    left: 0;
+    width: 100%;
+    background-color: #fff; /* Change this to your desired background color */
+    padding: 10px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+    z-index: 999;
+  }
+
+  .main-nav ul.nav.active {
+    display: flex;
+  }
+
+  .main-nav ul.nav li {
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee; /* Add a border between menu items */
+  }
+
+  .main-nav ul.nav li:last-child {
+    border-bottom: none; /* Remove border from the last menu item */
+  }
+
+  .main-nav .has-sub {
+    position: relative;
+  }
+
+  .main-nav .has-sub:hover ul.sub-menu {
+    display: block;
+    position: static; /* Adjust position for sub-menu items */
+    width: auto; /* Adjust width for sub-menu items */
+    box-shadow: none; /* Remove shadow for sub-menu items */
+  }
+
+  .main-nav .has-sub ul.sub-menu {
+    display: none;
+    background-color: #fff; /* Change this to your desired background color */
+    padding: 10px;
+  }
+}
+
+
+
+
+
