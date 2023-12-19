@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 const Meetings = () => {
@@ -42,13 +43,13 @@ const Meetings = () => {
                       <div className="price">
                         <span>$14.00</span>
                       </div>
-                      <a href="meeting-details.html"><img src="assets/images/meeting-01.jpg" alt="" /></a>
+                      <Link to ="/meeting-details"><img src="assets/images/meeting-01.jpg" alt="" /></Link>
                     </div>
                     <div className="down-content">
                       <div className="date">
                         <h6>Nov <span>12</span></h6>
                       </div>
-                      <a href="meeting-details.html"><h4>New Lecturers Meeting</h4></a>
+                      <Link to="/meeting-details"><h4>New Lecturers Meeting</h4></Link>
                       <p>Morbi in libero blandit lectus<br />cursus ullamcorper.</p>
                     </div>
                   </div>
@@ -59,13 +60,13 @@ const Meetings = () => {
                       <div className="price">
                         <span>$22.00</span>
                       </div>
-                      <a href="meeting-details.html"><img src="assets/images/meeting-02.jpg" alt="" /></a>
+                      <Link  to ="/meeting-details"><img src="assets/images/meeting-02.jpg" alt="" /></Link>
                     </div>
                     <div className="down-content">
                       <div className="date">
                         <h6>Nov <span>14</span></h6>
                       </div>
-                      <a href="meeting-details.html"><h4>Online Teaching Techniques</h4></a>
+                      <Link to ="/meeting-details"><h4>Online Teaching Techniques</h4></Link>
                       <p>Morbi in libero blandit lectus<br />cursus ullamcorper.</p>
                     </div>
                   </div>
@@ -76,13 +77,13 @@ const Meetings = () => {
                       <div className="price">
                         <span>$24.00</span>
                       </div>
-                      <a href="meeting-details.html"><img src="assets/images/meeting-03.jpg" alt="" /></a>
+                      <Link to ="/meeting-details"><img src="assets/images/meeting-03.jpg" alt="" /></Link>
                     </div>
                     <div className="down-content">
                       <div className="date">
                         <h6>Nov <span>16</span></h6>
                       </div>
-                      <a href="meeting-details.html"><h4>Network Teaching Concept</h4></a>
+                      <Link to ="/meeting-details"><h4>Network Teaching Concept</h4></Link>
                       <p>Morbi in libero blandit lectus<br />cursus ullamcorper.</p>
                     </div>
                   </div>
@@ -93,13 +94,13 @@ const Meetings = () => {
                       <div className="price">
                         <span>$32.00</span>
                       </div>
-                      <a href="meeting-details.html"><img src="assets/images/meeting-04.jpg" alt="" /></a>
+                      <Link to ="/meeting-details"><img src="assets/images/meeting-04.jpg" alt="" /></Link>
                     </div>
                     <div className="down-content">
                       <div className="date">
                         <h6>Nov <span>18</span></h6>
                       </div>
-                      <a href="meeting-details.html"><h4>Online Teaching Tools</h4></a>
+                      <Link to ="/meeting-details"><h4>Online Teaching Tools</h4></Link>
                       <p>Morbi in libero blandit lectus<br />cursus ullamcorper.</p>
                     </div>
                   </div>
@@ -110,13 +111,13 @@ const Meetings = () => {
                       <div className="price">
                         <span>$34.00</span>
                       </div>
-                      <a href="meeting-details.html"><img src="assets/images/meeting-02.jpg" alt="" /></a>
+                      <Link to ="/meeting-details"><img src="assets/images/meeting-02.jpg" alt="" /></Link>
                     </div>
                     <div className="down-content">
                       <div className="date">
                         <h6>Nov <span>22</span></h6>
                       </div>
-                      <a href="meeting-details.html"><h4>New Teaching Techniques</h4></a>
+                      <Link to ="/meeting-details"><h4>New Teaching Techniques</h4></Link>
                       <p>Morbi in libero blandit lectus<br />cursus ullamcorper.</p>
                     </div>
                   </div>
@@ -127,13 +128,13 @@ const Meetings = () => {
                       <div className="price">
                         <span>$45.00</span>
                       </div>
-                      <a href="meeting-details.html"><img src="assets/images/meeting-03.jpg" alt="" /></a>
+                      <Link to ="/meeting-details"><img src="assets/images/meeting-03.jpg" alt="" /></Link>
                     </div>
                     <div className="down-content">
                       <div className="date">
                         <h6>Nov <span>24</span></h6>
                       </div>
-                      <a href="meeting-details.html"><h4>Technology Conference</h4></a>
+                      <Link to ="/meeting-details"><h4>Technology Conference</h4></Link>
                       <p>TemplateMo is the best website<br />when it comes to Free CSS.</p>
                     </div>
                   </div>
@@ -144,13 +145,13 @@ const Meetings = () => {
                       <div className="price">
                         <span>$52.00</span>
                       </div>
-                      <a href="meeting-details.html"><img src="assets/images/meeting-01.jpg" alt="" /></a>
+                      <Link to ="/meeting-details"><img src="assets/images/meeting-01.jpg" alt="" /></Link>
                     </div>
                     <div className="down-content">
                       <div className="date">
                         <h6>Nov <span>27</span></h6>
                       </div>
-                      <a href="meeting-details.html"><h4>Online Teaching Techniques</h4></a>
+                      <Link to ="/meeting-details"><h4>Online Teaching Techniques</h4></Link>
                       <p>Morbi in libero blandit lectus<br />cursus ullamcorper.</p>
                     </div>
                   </div>
@@ -161,13 +162,13 @@ const Meetings = () => {
                       <div className="price">
                         <span>$64.00</span>
                       </div>
-                      <a href="meeting-details.html"><img src="assets/images/meeting-02.jpg" alt="" /></a>
+                      <Link to ="/meeting-details"><img src="assets/images/meeting-02.jpg" alt="" /></Link>
                     </div>
                     <div className="down-content">
                       <div className="date">
                         <h6>Nov <span>28</span></h6>
                       </div>
-                      <a href="meeting-details.html"><h4>Instant Lecture Design</h4></a>
+                      <Link to ="/meeting-details"><h4>Instant Lecture Design</h4></Link>
                       <p>Morbi in libero blandit lectus<br />cursus ullamcorper.</p>
                     </div>
                   </div>
@@ -178,13 +179,13 @@ const Meetings = () => {
                       <div className="price">
                         <span>$74.00</span>
                       </div>
-                      <a href="meeting-details.html"><img src="assets/images/meeting-03.jpg" alt="" /></a>
+                      <Link to ="/meeting-details"><img src="assets/images/meeting-03.jpg" alt="" /></Link>
                     </div>
                     <div className="down-content">
                       <div className="date">
                         <h6>Nov <span>30</span></h6>
                       </div>
-                      <a href="meeting-details.html"><h4>Online Social Networking</h4></a>
+                      <Link to ="/meeting-details"><h4>Online Social Networking</h4></Link>
                       <p>Morbi in libero blandit lectus<br />cursus ullamcorper.</p>
                     </div>
                   </div>
