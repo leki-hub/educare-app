@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MeetinDetails = () => {
+const MeetingDetails = () => {
   return (
     <div>
          <section className="heading-page header-text" id="top">
@@ -92,4 +92,4 @@ const MeetinDetails = () => {
   )
 }
 
-export default MeetinDetails
+export default MeetingDetails
