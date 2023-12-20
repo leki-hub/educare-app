@@ -58,7 +58,7 @@ const HomeTest = () => {
               <li><a href="#">Phasellus nec sapien</a></li>
             </ul>
             <div className="main-button-red">
-              <a href="meetings.html">All Upcoming Meetings</a>
+              <Link to ="/meeting-details">All Upcoming Meetings</Link>
             </div>
           </div>
         </div>
@@ -70,7 +70,7 @@ const HomeTest = () => {
                   <div className="price">
                     <span>$22.00</span>
                   </div>
-                  <a href="meeting-details.html"><img src="assets/images/meeting-01.jpg" alt="New Lecturer Meeting" /></a>
+                  <Link to ="/meeting-details"><img src="assets/images/meeting-01.jpg" alt="New Lecturer Meeting" /></Link>
                 </div>
                 <div className="down-content">
                   <div className="date">
@@ -87,13 +87,13 @@ const HomeTest = () => {
                   <div className="price">
                     <span>$36.00</span>
                   </div>
-                  <a href="meeting-details.html"><img src="assets/images/meeting-02.jpg" alt="Online Teaching" /></a>
+                  <Link to ="/meeting-details"><img src="assets/images/meeting-02.jpg" alt="Online Teaching" /></Link>
                 </div>
                 <div className="down-content">
                   <div className="date">
                     <h6>Nov <span>24</span></h6>
                   </div>
-                  <a href="meeting-details.html"><h4>Online Teaching Techniques</h4></a>
+                  <Link to ="/meeting-details"><h4>Online Teaching Techniques</h4></Link>
                   <p>Morbi in libero blandit lectus<br />cursus ullamcorper.</p>
                 </div>
               </div>
@@ -104,13 +104,13 @@ const HomeTest = () => {
                   <div className="price">
                     <span>$14.00</span>
                   </div>
-                  <a href="meeting-details.html"><img src="assets/images/meeting-03.jpg" alt="Higher Education" /></a>
+                  <Link to ="/meeting-details"><img src="assets/images/meeting-03.jpg" alt="Higher Education" /></Link>
                 </div>
                 <div className="down-content">
                   <div className="date">
                     <h6>Nov <span>26</span></h6>
                   </div>
-                  <a href="meeting-details.html"><h4>Higher Education Conference</h4></a>
+                  <Link to ="/meeting-details"><h4>Higher Education Conference</h4></Link>
                   <p>Morbi in libero blandit lectus<br />cursus ullamcorper.</p>
                 </div>
               </div>
@@ -121,13 +121,13 @@ const HomeTest = () => {
                   <div className="price">
                     <span>$48.00</span>
                   </div>
-                  <a href="meeting-details.html"><img src="assets/images/meeting-04.jpg" alt="Student Training" /></a>
+                  <Link to ="/meeting-details"><img src="assets/images/meeting-04.jpg" alt="Student Training" /></Link>
                 </div>
                 <div className="down-content">
                   <div className="date">
                     <h6>Nov <span>30</span></h6>
                   </div>
-                  <a href="meeting-details.html"><h4>Student Training Meetup</h4></a>
+                  <Link to ="/meeting-details"><h4>Student Training Meetup</h4></Link>
                   <p>Morbi in libero blandit lectus<br />cursus ullamcorper.</p>
                 </div>
               </div>
