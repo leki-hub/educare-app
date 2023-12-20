@@ -54,7 +54,7 @@ const Header = () => {
           <div className="row">
             <div className="col-12">
               <nav className="main-nav">
-                <Link href="/" className="logo">
+                <Link to="/" className="logo">
                   Leki Academy
                 </Link>
            
