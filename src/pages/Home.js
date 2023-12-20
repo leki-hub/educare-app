@@ -58,7 +58,7 @@ const HomeTest = () => {
               <li><a href="#">Phasellus nec sapien</a></li>
             </ul>
             <div className="main-button-red">
-              <Link to ="/meeting-details">All Upcoming Meetings</Link>
+              <Link to ="/meetings">All Upcoming Meetings</Link>
             </div>
           </div>
         </div>
