@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const MeetingDetails = () => {
   return (
@@ -75,7 +76,7 @@ const MeetingDetails = () => {
             </div>
             <div className="col-lg-12">
               <div className="main-button-red">
-                <a href="meetings.html">Back To Meetings List</a>
+                <Link to ="/meetings">Back To Meetings List</Link>
               </div>
             </div>
           </div>
