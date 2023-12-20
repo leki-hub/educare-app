@@ -249,8 +249,8 @@ const HomeTest = () => {
       </div>
     </div>
     <div className="footer">
-      <p>Copyright © 2022 Edu Meeting Co., Ltd. All Rights Reserved. 
-          <br />Design: <a href="https://templatemo.com" target="_parent" title="free css templates">TemplateMo</a></p>
+      <p>Copyright © 2023 Leki Emmanuel . All Rights Reserved. 
+          <br />linkedin: <a href="https://www.linkedin.com/in/leki-emmanuel-8b7540157/" target="_blank" title="school website">Leki Academy</a></p>
     </div>
   </section>
 
