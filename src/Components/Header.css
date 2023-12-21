@@ -100,12 +100,13 @@
       color: #333333;
       text-decoration: none;
       transition: color 0.3s ease;
-    
+   
     }
     
     .nav.active {
       display: block;
       flex-direction: column;
+     
     }
   
   
