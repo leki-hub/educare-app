@@ -8,19 +8,18 @@ import CourseCarousel from '../Components/CourseCarousel.js';
 
 
 
-const HomeTest = () => {
+
+const Home = () => {
 
 
-    return (
-      <div>
+      return (
+       <div>
+        <section className="section main-banner" id="top" data-section="section1">
+          <video autoPlay muted loop id="bg-video">
+           <source src="assets/images/course-video.mp4" type="video/mp4" />
+          </video>
 
-        {/*  ***** Main Banner Area Start ***** */}
-      <section className="section main-banner" id="top" data-section="section1">
-      <video autoPlay muted loop id="bg-video">
-          <source src="assets/images/course-video.mp4" type="video/mp4" />
-      </video>
-
-      <div className="video-overlay header-text">
+          <div className="video-overlay header-text">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
@@ -164,6 +163,7 @@ const HomeTest = () => {
           </div>
         </div>
       <HomeAccordion />
+ \
       </div>
     </div>
   </section>
@@ -261,4 +261,4 @@ const HomeTest = () => {
   );
 };
 
-export default HomeTest;
+export default Home;
