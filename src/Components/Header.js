@@ -7,11 +7,13 @@ import { useEffect } from 'react';
 const Header = () => {
     
         const [menuOpen, setMenuOpen] = useState(false);
+
       
         const toggleMenu = () => {
           setMenuOpen(!menuOpen);
         };
-        
+    
+
         useEffect(() => {
           const handleScroll = () => {
             const header = document.querySelector('.header-area');
@@ -90,3 +92,7 @@ const Header = () => {
 }
 
 export default Header
+
+
+
+
