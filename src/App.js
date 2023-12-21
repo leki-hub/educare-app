@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Meetings from "./pages/Meetings";
-
 import Header from "./Components/Header";
 import MeetingDetails from "./pages/MeetingDetails";
+
 
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
        
    
       </Routes>
+
     </BrowserRouter>
     </>
   );
