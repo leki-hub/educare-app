@@ -12,36 +12,36 @@ const Meetings = () => {
 
 // data representing meetings
   const itemsData = [
-    { category: 'soon', title: 'New Kbisa Lecturers Meeting', date: 'Nov 12', price: '$14.00' },
-    { category: 'all', title: 'New  Kabisa Lecturers Meeting', date: 'Nov 12', price: '$14.00' },
+    { category: 'soon', title: 'New Kbisa Lecturers Meeting', date: 'Nov 12', price: '$14.00' ,image: '/assets/images/meeting-1.jpg'},
+    { category: 'all', title: 'New  Kabisa Lecturers Meeting', date: 'Nov 12', price: '$14.00',image: '/assets/images/meeting-1.jpg' },
 
-    { category: 'all', title: 'Online Kbisa Teaching Techniques', date: 'Nov 14', price: '$22.00' },
-    { category: 'imp', title: 'Online Teaching Techniques', date: 'Nov 14', price: '$22.00' },
+    { category: 'all', title: 'Online Kbisa Teaching Techniques', date: 'Nov 14', price: '$22.00' ,image: '/assets/images/meeting-2.jpg' },
+    { category: 'imp', title: 'Online Teaching Techniques', date: 'Nov 14', price: '$22.00',image: '/assets/images/meeting-2.jpg' },
 
-    { category: 'all', title: 'Network Teaching Concept', date: 'Nov 16', price: '$24.00' },
-    { category: 'soon', title: 'Network Teaching Concept', date: 'Nov 16', price: '$24.00' },
+    { category: 'all', title: 'Network Teaching Concept', date: 'Nov 16', price: '$24.00' ,image: '/assets/images/meeting-3.jpg' },
+    { category: 'soon', title: 'Network Teaching Concept', date: 'Nov 16', price: '$24.00' ,image: '/assets/images/meeting-1.jpg' },
 
-    { category: 'all', title: 'Online Teaching Tools', date: 'Nov 18', price: '$32.00' },
-    { category: 'att', title: 'Online Teaching Tools', date: 'Nov 18', price: '$32.00' },
+    { category: 'all', title: 'Online Teaching Tools', date: 'Nov 18', price: '$32.00' ,image: '/assets/images/meeting-4.jpg' },
+    { category: 'att', title: 'Online Teaching Tools', date: 'Nov 18', price: '$32.00' ,image: '/assets/images/meeting-4.jpg' },
 
-    { category: 'all', title: 'New Teaching Techniques', date: 'Nov 22', price: '$34.00' },
-    { category: 'att', title: 'New Teaching Techniques', date: 'Nov 22', price: '$34.00' },
+    { category: 'all', title: 'New Teaching Techniques', date: 'Nov 22', price: '$34.00',image: '/assets/images/meeting-5.jpg' },
+    { category: 'att', title: 'New Teaching Techniques', date: 'Nov 22', price: '$34.00' ,image: '/assets/images/meeting-5.jpg' },
 
 
-    { category: 'all', title: 'Technology Conference', date: 'Nov 24', price: '$52.00' },
-    { category: 'imp', title: 'Technology Conference', date: 'Nov 24', price: '$52.00' },
+    { category: 'all', title: 'Technology Conference', date: 'Nov 24', price: '$52.00',image: '/assets/images/meeting-3.jpg' },
+    { category: 'imp', title: 'Technology Conference', date: 'Nov 24', price: '$52.00' ,image: '/assets/images/meeting-3.jpg'},
 
-    { category: 'all', title: 'Online Teaching Techniques', date: 'Nov 27', price: '$34.00' },
-    { category: 'imp', title: 'Online Teaching Techniques', date: 'Nov 27', price: '$34.00' },
-    { category: 'att', title: 'Online Teaching Techniques', date: 'Nov 27', price: '$34.00' },
+    { category: 'all', title: 'Online Teaching Techniques', date: 'Nov 27', price: '$34.00' ,image: '/assets/images/meeting-1.jpg'},
+    { category: 'imp', title: 'Online Teaching Techniques', date: 'Nov 27', price: '$34.00' ,image: '/assets/images/meeting-1.jpg' },
+    { category: 'att', title: 'Online Teaching Techniques', date: 'Nov 27', price: '$34.00' ,image: '/assets/images/meeting-1.jpg' },
 
-    { category: 'all', title: 'Online Social Networking', date: 'Nov 30', price: '$74.00' },
-    { category: 'soon', title: 'Online Social Networking', date: 'Nov 30', price: '$74.00' },
-    { category: 'att', title: 'Online Social Networking', date: 'Nov 30', price: '$74.00' },
+    { category: 'all', title: 'Online Social Networking', date: 'Nov 30', price: '$74.00',image: '/assets/images/meeting-3.jpg' },
+    { category: 'soon', title: 'Online Social Networking', date: 'Nov 30', price: '$74.00',image: '/assets/images/meeting-3.jpg' },
+    { category: 'att', title: 'Online Social Networking', date: 'Nov 30', price: '$74.00' ,image: '/assets/images/meeting-3.jpg' },
 
-    { category: 'all', title: 'Instant Lecture Design', date: 'Nov 28', price: '$64.00' },
-    { category: 'soon', title: 'Instant Lecture Design', date: 'Nov 28', price: '$64.00' },
-    { category: 'imp', title: 'Instant Lecture Design', date: 'Nov 28', price: '$64.00' },
+    { category: 'all', title: 'Instant Lecture Design', date: 'Nov 28', price: '$64.00' ,image: '/assets/images/meeting-2.jpg' },
+    { category: 'soon', title: 'Instant Lecture Design', date: 'Nov 28', price: '$64.00',image: '/assets/images/meeting-2.jpg' },
+    { category: 'imp', title: 'Instant Lecture Design', date: 'Nov 28', price: '$64.00',image: '/assets/images/meeting-2.jpg' }
 
 
   ];
@@ -79,7 +79,7 @@ const Meetings = () => {
   //     {/* Render items based on the selected filter */}
       <div className="row grid">
         {itemsData.map((item, index) => {
-          const { category, title, date, price } = item; // Assuming your meeting object has these properties
+          const { category, title, date, price,image } = item; // Assuming your meeting object has these properties
 
           // Check if the item matches the selected filter or if 'all' is selected
           if (filter === category) {
@@ -90,7 +90,7 @@ const Meetings = () => {
                     <div className="price">
                       <span>{price}</span>
                     </div>
-                   <Link to ="/meeting-details">  <img src={`assets/images/meeting-${index}.jpg`} alt="" /> </Link>
+                   <Link to ="/meeting-details">  <img src={process.env.PUBLIC_URL + image} alt="" /> </Link>
                   </div>
                   <div className="down-content">
                     <div className="date">
