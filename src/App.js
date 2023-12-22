@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import Meetings from "./pages/MeetingsTest";
+import Meetings from "./pages/Meetings";
 import Header from "./Components/Header";
 import MeetingDetails from "./pages/MeetingDetails";
 
