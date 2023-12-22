@@ -24,11 +24,9 @@ const Meetings = () => {
     { category: 'all', title: 'Online Teaching Tools', date: 'Nov 18', price: '$32.00' },
     { category: 'att', title: 'Online Teaching Tools', date: 'Nov 18', price: '$32.00' },
 
-    { category: 'all', title: 'New Lecturers Meeting', date: 'Nov 22', price: '$34.00' },
-    { category: 'att', title: 'New Lecturers Meeting', date: 'Nov 22', price: '$34.00' },
+    { category: 'all', title: 'New Teaching Techniques', date: 'Nov 22', price: '$34.00' },
+    { category: 'att', title: 'New Teaching Techniques', date: 'Nov 22', price: '$34.00' },
 
-    { category: 'all', title: 'New Teaching Techniques', date: 'Nov 22', price: '$45.00' },
-    { category: 'soon', title: 'New Teaching Techniques', date: 'Nov 22', price: '$45.00' },
 
     { category: 'all', title: 'Technology Conference', date: 'Nov 24', price: '$52.00' },
     { category: 'imp', title: 'Technology Conference', date: 'Nov 24', price: '$52.00' },
@@ -92,7 +90,7 @@ const Meetings = () => {
                     <div className="price">
                       <span>{price}</span>
                     </div>
-                   <Link to ="/meeting-details">  <img src={`assets/images/meeting-${index + 1}.jpg`} alt="" /> </Link>
+                   <Link to ="/meeting-details">  <img src={`assets/images/meeting-${index}.jpg`} alt="" /> </Link>
                   </div>
                   <div className="down-content">
                     <div className="date">
