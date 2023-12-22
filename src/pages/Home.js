@@ -69,7 +69,7 @@ const Home = () => {
                   <div className="price">
                     <span>$22.00</span>
                   </div>
-                  <Link to ="/meeting-details"><img src="assets/images/meeting-01.jpg" alt="New Lecturer Meeting" /></Link>
+                  <Link to ="/meeting-details"><img src="assets/images/meeting-1.jpg" alt="New Lecturer Meeting" /></Link>
                 </div>
                 <div className="down-content">
                   <div className="date">
@@ -86,7 +86,7 @@ const Home = () => {
                   <div className="price">
                     <span>$36.00</span>
                   </div>
-                  <Link to ="/meeting-details"><img src="assets/images/meeting-02.jpg" alt="Online Teaching" /></Link>
+                  <Link to ="/meeting-details"><img src="assets/images/meeting-2.jpg" alt="Online Teaching" /></Link>
                 </div>
                 <div className="down-content">
                   <div className="date">
@@ -103,7 +103,7 @@ const Home = () => {
                   <div className="price">
                     <span>$14.00</span>
                   </div>
-                  <Link to ="/meeting-details"><img src="assets/images/meeting-03.jpg" alt="Higher Education" /></Link>
+                  <Link to ="/meeting-details"><img src="assets/images/meeting-3.jpg" alt="Higher Education" /></Link>
                 </div>
                 <div className="down-content">
                   <div className="date">
@@ -120,7 +120,7 @@ const Home = () => {
                   <div className="price">
                     <span>$48.00</span>
                   </div>
-                  <Link to ="/meeting-details"><img src="assets/images/meeting-04.jpg" alt="Student Training" /></Link>
+                  <Link to ="/meeting-details"><img src="assets/images/meeting-4.jpg" alt="Student Training" /></Link>
                 </div>
                 <div className="down-content">
                   <div className="date">
