@@ -9,6 +9,16 @@ const Meetings = () => {
   const handleFilterClick = (filterValue) => {
     setFilter(filterValue); // Update filter state based on clicked item
   };
+   
+
+  // pagination syntax
+
+
+
+
+
+
+
 
 // data representing meetings
   const itemsData = [
@@ -116,6 +126,7 @@ const Meetings = () => {
             <div className="col-lg-12">
               <div className="pagination">
                 <ul>
+                  <li><a href="#"><i className="fa fa-angle-right"></i></a></li>
                   <li><a href="#">1</a></li>
                   <li className="active"><a href="#">2</a></li>
                   <li><a href="#">3</a></li>
