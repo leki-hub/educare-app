@@ -5,9 +5,7 @@ import CountUpAnimation from '../Components/Countup.js';
 import ServiceCarousel from '../Components/ServiceCarousel.jsx'
 import HomeAccordion from '../Components/HomeAccordion.jsx';
 import CourseCarousel from '../Components/CourseCarousel.js';
-import ContactForm from '../Components/ContacForm.js';
-
-
+import ContactForm from '../Components/ContactForm.js';
 
 
 const Home = () => {
