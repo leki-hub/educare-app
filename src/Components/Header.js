@@ -72,8 +72,8 @@ const Header = () => {
                           <li className="has-sub">
                               <a href="#">Pages</a>
                               <ul className="sub-menu">
-                                  <li><a href="meetings.html">Upcoming Meetings</a></li>
-                                  <li><a href="meeting-details.html">Meeting Details</a></li>
+                                  <li><Link to="/meetings">Upcoming Meetings</Link></li>
+                                  <li><Link to="meetings">Meeting Details</Link></li>
                               </ul>
                           </li>
                           <li className="scroll-to-section"><a href="#courses">Courses</a></li> 
