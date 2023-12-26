@@ -5,6 +5,7 @@ import CountUpAnimation from '../Components/Countup.js';
 import ServiceCarousel from '../Components/ServiceCarousel.jsx'
 import HomeAccordion from '../Components/HomeAccordion.jsx';
 import CourseCarousel from '../Components/CourseCarousel.js';
+import ContactForm from '../Components/ContacForm.js';
 
 
 
@@ -189,38 +190,7 @@ const Home = () => {
         <div className="col-lg-9 align-self-center">
           <div className="row">
             <div className="col-lg-12">
-              <form id="contact" action="" method="post">
-                <div className="row">
-                  <div className="col-lg-12">
-                    <h2>Let's get in touch</h2>
-                  </div>
-                  <div className="col-lg-4">
-                    <fieldset>
-                      <input name="name" type="text" id="name" placeholder="YOURNAME...*" required="" />
-                    </fieldset>
-                  </div>
-                  <div className="col-lg-4">
-                    <fieldset>
-                    <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="YOUR EMAIL..." required="" />
-                  </fieldset>
-                  </div>
-                  <div className="col-lg-4">
-                    <fieldset>
-                      <input name="subject" type="text" id="subject" placeholder="SUBJECT...*" required="" />
-                    </fieldset>
-                  </div>
-                  <div className="col-lg-12">
-                    <fieldset>
-                      <textarea name="message" type="text" className="form-control" id="message" placeholder="YOUR MESSAGE..." required=""></textarea>
-                    </fieldset>
-                  </div>
-                  <div className="col-lg-12">
-                    <fieldset>
-                      <button type="submit" id="form-submit" className="button">SEND MESSAGE NOW</button>
-                    </fieldset>
-                  </div>
-                </div>
-              </form>
+              <ContactForm />
             </div>
           </div>
         </div>
