@@ -2,8 +2,9 @@
 import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
 import '../ServiceCarousel.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 
 const ServiceCarousel = () => {
   const settings = {
@@ -43,7 +44,9 @@ const ServiceCarousel = () => {
                 </div>
                 <div className="down-content">
                   <h4>Best Education</h4>
-                  <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.</p>
+                  <p>Suspendisse tempor mauris a sem elementum bibendum. Praesent facilisis massa non vestibulum.
+                  
+                  </p>
                 </div>
               </div>
               </div>
