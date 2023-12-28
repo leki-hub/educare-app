@@ -140,7 +140,7 @@ const Meetings = () => {
     </div>
     <div className="footer">
       <p>Copyright © 2023 Leki Emmanuel . All Rights Reserved. 
-          <br />linkedin: <a href="https://www.linkedin.com/in/leki-emmanuel-8b7540157/" target="_blank" title="school website">Leki Academy</a></p>
+          <br />linkedin: <a href="#" target="_parent" title="school website">Leki Academy</a></p>
     </div>
   </section>
     </div>
