@@ -175,7 +175,7 @@ const Home = () => {
 
         <div className="col-lg-6 align-self-center">
           <div className="video">
-            <a href="https://www.youtube.com/watch?v=HndV87XpkWg" target="_blank"><img src="assets/images/play-icon.png" alt="" /></a>
+            <a href="https://www.youtube.com/watch?v=HndV87XpkWg" target="_blank" rel="noreferrer"><img src="assets/images/play-icon.png" alt="" /></a>
           </div>
         </div>
       </div>
