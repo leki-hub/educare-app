@@ -63,10 +63,10 @@ const MeetingDetails = () => {
                       <div className="share">
                         <h5>Share:</h5>
                         <ul>
-                          <li><a href="#">Facebook</a>,</li>
-                          <li><a href="#">Twitter</a>,</li>
-                          <li><a href="#">Linkedin</a>,</li>
-                          <li><a href="#">Behance</a></li>
+                          <li><Link to="/">Facebook</Link>,</li>
+                          <li><Link to="/">Twitter</Link>,</li>
+                          <li><Link to ="/">Linkedin</Link>,</li>
+                          <li><Link to="/">Behance</Link></li>
                         </ul>
                       </div>
                     </div>
