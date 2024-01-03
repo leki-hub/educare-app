@@ -50,11 +50,11 @@ const Home = () => {
           <div className="categories">
             <h4>Meeting Catgories</h4>
             <ul>
-              <li><a href="#">Sed tempus enim leo</a></li>
-              <li><a href="#">Aenean molestie quis</a></li>
-              <li><a href="#">Cras et metus vestibulum</a></li>
-              <li><a href="#">Nam et condimentum</a></li>
-              <li><a href="#">Phasellus nec sapien</a></li>
+              <li><a href="/">Sed tempus enim leo</a></li>
+              <li><a href="/">Aenean molestie quis</a></li>
+              <li><a href="/">Cras et metus vestibulum</a></li>
+              <li><a href="/">Nam et condimentum</a></li>
+              <li><a href="/">Phasellus nec sapien</a></li>
             </ul>
             <div className="main-button-red">
               <Link to ="/meetings">All Upcoming Meetings</Link>
@@ -218,7 +218,7 @@ const Home = () => {
     </div>
     <div className="footer">
       <p>Copyright © 2023 Leki Emmanuel . All Rights Reserved. 
-          <br />linkedin: <a href="#" target="_parent" title="school website">Leki Academy</a></p>
+          <br />linkedin: <a href="/" target="_parent" title="school website">Leki Academy</a></p>
     </div>
   </section>
 
