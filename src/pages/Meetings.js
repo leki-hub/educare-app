@@ -116,11 +116,11 @@ const Meetings = () => {
             <div className="col-lg-12">
               <div className="pagination">
                 <ul>
-                  <li><a href="#"><i className="fa fa-angle-right"></i></a></li>
-                  <li><a href="#">1</a></li>
-                  <li className="active"><a href="#">2</a></li>
-                  <li><a href="#">3</a></li>
-                  <li><a href="#"><i className="fa fa-angle-right"></i></a></li>
+                  <li><a href="/"><i className="fa fa-angle-right"></i></a></li>
+                  <li><a href="/">1</a></li>
+                  <li className="active"><a href="/">2</a></li>
+                  <li><a href="/">3</a></li>
+                  <li><a href="/"><i className="fa fa-angle-right"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -130,7 +130,7 @@ const Meetings = () => {
     </div>
     <div className="footer">
       <p>Copyright © 2023 Leki Emmanuel . All Rights Reserved. 
-          <br />linkedin: <a href="#" target="_parent" title="school website">Leki Academy</a></p>
+          <br />linkedin: <a href="/" target="_parent" title="school website">Leki Academy</a></p>
     </div>
   </section>
     </div>
