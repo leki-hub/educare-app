@@ -1,10 +1,7 @@
-/* ServiceCarousel.css */
-/* .custom-slider .slick-slide {
-    margin-right: 15px; 
-  } */
 
   .custom-slider .slick-list {
     margin: 0 -15px; 
+
   }
   
   .custom-slider .carousel-item {
