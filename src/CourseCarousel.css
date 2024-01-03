@@ -1,5 +1,6 @@
 .custom-slider .slick-list {
     margin: 0 -15px; /* Counteract the right margin on the last slide */
+   
   }
   
   .custom-slider .item {
