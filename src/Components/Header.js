@@ -40,10 +40,10 @@ const Header = () => {
         <div className="col-lg-4 col-sm-4">
           <div className="right-icons">
             <ul>
-              <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i className="fa fa-behance"></i></a></li>
-              <li><a href="#"><i className="fa fa-linkedin"></i></a></li>
+              <li><Link to="/"><i className="fa fa-facebook"></i></Link></li>
+              <li><Link to="/"><i className="fa fa-twitter"></i></Link></li>
+              <li><Link to="/"><i className="fa fa-behance"></i></Link></li>
+              <li><Link to="/"><i className="fa fa-linkedin"></i></Link></li>
             </ul>
           </div>
         </div>
@@ -73,7 +73,7 @@ const Header = () => {
                               <a href="#">Pages</a>
                               <ul className="sub-menu">
                                   <li><Link to="/meetings">Upcoming Meetings</Link></li>
-                                  <li><Link to="meetings">Meeting Details</Link></li>
+                                  <li><Link to="/meetings">Meeting Details</Link></li>
                               </ul>
                           </li>
                           <li className="scroll-to-section"><a href="#courses">Courses</a></li> 
