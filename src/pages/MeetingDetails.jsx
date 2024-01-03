@@ -29,7 +29,7 @@ const MeetingDetails = () => {
                   <div className="date">
                     <h6>Nov <span>12</span></h6>
                   </div>
-                  <a href="meeting-details.html"><img src="assets/images/single-meeting.jpg" alt="" /></a>
+                  <Link to="/"><img src="assets/images/single-meeting.jpg" alt="" /></Link>
                 </div>
                 <div className="down-content">
                   <a href="meeting-details.html"><h4>Online Teaching and Learning Tools</h4></a>
