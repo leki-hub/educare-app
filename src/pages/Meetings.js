@@ -7,20 +7,10 @@ const Meetings = () => {
   const [filter, setFilter] = useState('all'); // Initial filter state
 
   const handleFilterClick = (filterValue) => {
-    setFilter(filterValue); // Update filter state based on clicked item
+    setFilter(filterValue); {/*Update filter state based on clicked item*/}
   };
    
 
-  // pagination syntax
-
-
-
-
-
-
-
-
-// data representing meetings
   const itemsData = [
     { category: 'soon', title: 'New Kbisa Lecturers Meeting', date: 'Nov 12', price: '$14.00' ,image: '/assets/images/meeting-1.jpg'},
     { category: 'all', title: 'New  Kabisa Lecturers Meeting', date: 'Nov 12', price: '$14.00',image: '/assets/images/meeting-1.jpg' },
@@ -89,7 +79,7 @@ const Meetings = () => {
   //     {/* Render items based on the selected filter */}
       <div className="row grid">
         {itemsData.map((item, index) => {
-          const { category, title, date, price,image } = item; // Assuming your meeting object has these properties
+          const { category, title, date, price,image } = item; 
 
           // Check if the item matches the selected filter or if 'all' is selected
           if (filter === category) {
