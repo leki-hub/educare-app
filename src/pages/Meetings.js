@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 
 const Meetings = () => {
 
-const [filter, setFilter] = useState('all'); {/* Initial filter state */}
-
+const [filter, setFilter] = useState('all'); 
+// Initial filter state 
   const handleFilterClick = (filterValue) => {
-    setFilter(filterValue); {/*Update filter state based on clicked item*/}
+    setFilter(filterValue); 
   };
    
 
@@ -43,8 +43,6 @@ const [filter, setFilter] = useState('all'); {/* Initial filter state */}
     { category: 'imp', title: 'Instant Lecture Design', date: 'Nov 28', price: '$64.00',image: '/assets/images/meeting-2.jpg' }
 
   ];
-
-
   return (
     <div>
   <section className="heading-page header-text" id="top">
@@ -77,10 +75,11 @@ const [filter, setFilter] = useState('all'); {/* Initial filter state */}
        {/* Render items based on the selected filter */}
       <div className="row grid">
         {itemsData.map((item, index) => {
+   
           const { category, title, date, price,image } = item; 
 
-         {/* Check if the item matches the selected filter or if 'all' is selected */}
-          if (filter === category) {
+                // Check if the item matches the selected filter or if 'all' is selected 
+          if (filter === category) 
             return (
               <div className={`col-lg-4 templatemo-item-col all ${category}`} key={index}>
                 <div className="meeting-item">
@@ -101,7 +100,7 @@ const [filter, setFilter] = useState('all'); {/* Initial filter state */}
               </div>
         
         );
-          }
+          
 
    
      return null; // If the item doesn't match the filter, don't render it
