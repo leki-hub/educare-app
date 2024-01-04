@@ -90,7 +90,7 @@ const Meetings = () => {
                     <div className="price">
                       <span>{price}</span>
                     </div>
-                   <Link to ="/meeting-details">  <img src={process.env.PUBLIC_URL + image} alt="" /> </Link>
+                   <Link to ="/meeting-details">  <img src={process.env.PUBLIC_URL + image} alt="meeting details" /> </Link>
                   </div>
                   <div className="down-content">
                     <div className="date">
