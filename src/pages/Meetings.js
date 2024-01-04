@@ -74,7 +74,7 @@ const [filter, setFilter] = useState('all'); {/* Initial filter state */}
       </ul>
       </div>
 
-  //     {/* Render items based on the selected filter */}
+       {/* Render items based on the selected filter */}
       <div className="row grid">
         {itemsData.map((item, index) => {
           const { category, title, date, price,image } = item; 
