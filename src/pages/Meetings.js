@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Meetings = () => {
 
-  const [filter, setFilter] = useState('all'); // Initial filter state
+const [filter, setFilter] = useState('all'); {/* Initial filter state */}
 
   const handleFilterClick = (filterValue) => {
     setFilter(filterValue); {/*Update filter state based on clicked item*/}
@@ -27,7 +27,6 @@ const Meetings = () => {
     { category: 'all', title: 'New Teaching Techniques', date: 'Nov 22', price: '$34.00',image: '/assets/images/meeting-5.jpg' },
     { category: 'att', title: 'New Teaching Techniques', date: 'Nov 22', price: '$34.00' ,image: '/assets/images/meeting-5.jpg' },
 
-
     { category: 'all', title: 'Technology Conference', date: 'Nov 24', price: '$52.00',image: '/assets/images/meeting-3.jpg' },
     { category: 'imp', title: 'Technology Conference', date: 'Nov 24', price: '$52.00' ,image: '/assets/images/meeting-3.jpg'},
 
@@ -42,7 +41,6 @@ const Meetings = () => {
     { category: 'all', title: 'Instant Lecture Design', date: 'Nov 28', price: '$64.00' ,image: '/assets/images/meeting-2.jpg' },
     { category: 'soon', title: 'Instant Lecture Design', date: 'Nov 28', price: '$64.00',image: '/assets/images/meeting-2.jpg' },
     { category: 'imp', title: 'Instant Lecture Design', date: 'Nov 28', price: '$64.00',image: '/assets/images/meeting-2.jpg' }
-
 
   ];
 
@@ -81,7 +79,7 @@ const Meetings = () => {
         {itemsData.map((item, index) => {
           const { category, title, date, price,image } = item; 
 
-          // Check if the item matches the selected filter or if 'all' is selected
+         {/* Check if the item matches the selected filter or if 'all' is selected */}
           if (filter === category) {
             return (
               <div className={`col-lg-4 templatemo-item-col all ${category}`} key={index}>
