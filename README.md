@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-Educare-app: College application website.
+Educare-app: College website application .
 =============================
 
 To visit my website: https://educare-app.netlify.app/
