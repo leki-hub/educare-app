@@ -70,10 +70,10 @@ const Header = () => {
                           <li><Link to="/meetings">Meetings</Link></li>
                           <li className="scroll-to-section"><a href="#apply">Apply Now</a></li>
                           <li className="has-sub">
-                              <a href="#">Pages</a>
+                              <a href="#top">Pages</a>
                               <ul className="sub-menu">
                                   <li><Link to="/meetings">Upcoming Meetings</Link></li>
-                                  <li><Link to="/meetings">Meeting Details</Link></li>
+                                  <li><Link to="/meeting-details">Meeting Details</Link></li>
                               </ul>
                           </li>
                           <li className="scroll-to-section"><a href="#courses">Courses</a></li> 
