@@ -91,7 +91,7 @@ const [filter, setFilter] = useState('all');
                   </div>
                   <div className="down-content">
                     <div className="date">
-                      <h6><span>{date}</span></h6>
+                      <h6>Yes<span>{date}</span></h6>
                     </div>
                     <h4>{title}</h4>
                     <p>Mambo  in libero blandit lectus cursus ullamcorper.</p>
