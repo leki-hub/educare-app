@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import Meetings from "./pages/Meetings";
 import Header from "./Components/Header";
 import MeetingDetails from "./pages/MeetingDetails";
-
+import 'font-awesome/css/font-awesome.min.css';
 
 
 
@@ -27,3 +27,6 @@ function App() {
 }
 
 export default App;
+
+
+
