@@ -1700,3 +1700,30 @@ responsive
   }
 
 }
+
+
+
+
+/* Define the keyframes */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+    height: 80%;
+    width: 80%;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply animation to elements with specific classes */
+.all,
+.soon,
+.imp,
+.att {
+  animation: fadeIn .5s ease-in-out; 
+
+}
+
