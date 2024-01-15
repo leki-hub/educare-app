@@ -1,7 +1,7 @@
 import React , { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-
+const currentYear = new Date().getFullYear();
 const Meetings = () => {
 
 const [filter, setFilter] = useState('all'); 
@@ -126,7 +126,7 @@ const [filter, setFilter] = useState('all');
       </div>
     </div>
     <div className="footer">
-      <p>Copyright © 2023 Leki Emmanuel . All Rights Reserved. 
+      <p>Copyright © {currentYear} Leki Emmanuel . All Rights Reserved. 
           <br />linkedin: <a href="/" target="_parent" title="school website">Leki Academy</a></p>
     </div>
   </section>
