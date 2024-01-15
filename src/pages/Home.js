@@ -26,7 +26,7 @@ const Home = () => {
                 <div className="caption">
               <h6>Hello Students</h6>
               <h2>Welcome to Education</h2>
-              <p>This is an edu meeting HTML CSS template provided by <a href="/" >Emmanuel</a>. This is a Bootstrap v5.1.3 layout. The video background is taken from Pexels website, a group of young people by <a href="/" >Pressmaster</a>.</p>
+              <p>This is an edu meeting HTML ,CSS and React template provided by <a href="/" >Emmanuel</a>. This is a Bootstrap v5.3.2 layout. The video background is taken from Pexels website, a group of young people by <a href="/" >Edu</a>.</p>
               <div className="main-button-red">
                   <div className="scroll-to-section"><a href="#contact">Join Us Now!</a></div>
               </div>
