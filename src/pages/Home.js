@@ -8,7 +8,7 @@ import CourseCarousel from '../Components/CourseCarousel.js';
 import ContactForm from '../Components/ContactForm.js';
 
 
-
+const currentYear = new Date().getFullYear();
 const Home = () => {
 
 
@@ -217,7 +217,7 @@ const Home = () => {
       </div>
     </div>
     <div className="footer">
-      <p>Copyright © 2023 Leki Emmanuel . All Rights Reserved. 
+      <p>Copyright © {currentYear} Leki Emmanuel . All Rights Reserved. 
           <br />linkedin: <a href="/" target="_parent" title="school website">Leki Academy</a></p>
     </div>
   </section>
